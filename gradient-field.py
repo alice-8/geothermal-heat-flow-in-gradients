@@ -2,7 +2,7 @@
 # Alice Su, Per. 2
 # Dec 4, 2024
 
-# Gradient field plot
+# Direction of Heat Flow, 2D Gradient Field Final Product
 
 
 import numpy as np
