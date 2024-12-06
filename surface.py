@@ -2,7 +2,7 @@
 # Alice Su, Per. 2
 # Dec 4, 2024
 
-# Temperature Distribution 3D Surface Final Product
+# Temperature Distribution 3D Surface
 
 
 import numpy as np
@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from matplotlib.animation import FuncAnimation
 
-# City coordinates (latitude, longitude)
+# City coordinates (x,y)
 cities = {
     "San Francisco": (37.7749, -122.4194),
     "Pleasanton": (37.6624, -121.8747),
@@ -23,7 +23,7 @@ cities = {
     "Palo Alto": (37.4419, -122.1430)
 }
 
-# Temperatures for four days
+# Temperatures respective to each cities for 4 days (z-coordinate)
 temperatures = {
     "Day 1": [55, 57, 57, 57, 55, 58, 58, 55, 57],
     "Day 2": [56, 56, 56, 56, 56, 57, 57, 57, 57],
@@ -42,7 +42,7 @@ lat_grid, lon_grid = np.meshgrid(
     np.linspace(longitudes.min(), longitudes.max(), 50)
 )
 
-# Function to interpolate temperatures
+# Interpolate temperatures
 def interpolate_temps(coords, temps, lat_grid, lon_grid):
     from scipy.interpolate import griddata
     grid_temps = griddata(coords, temps, (lat_grid, lon_grid), method='cubic')
