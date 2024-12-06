@@ -23,7 +23,9 @@ MVC Semester 1 Final Project - Geothermal Heat Flow in Gradients
 <br/>
 <br/>
 
-# Mathematical Interpretation
-<img width="990" alt="Screenshot 2024-12-04 at 8 32 03 PM" src="https://github.com/user-attachments/assets/3bdb3c86-47c6-416c-b5e9-096dbffd0a9f">
+# Mathematical Representation of Heat Flow
+Heat flows in the direction of the negative gradient vector.
+<img width="600" alt="Screenshot 2024-12-05 at 4 46 19 PM" src="https://github.com/user-attachments/assets/a78d2d42-3462-4266-926d-5322ae311065">
+
 
 
