@@ -7,9 +7,10 @@ Alice Su
 <br/>
 <br/>
 ## What is a Gradient Vector?
-<img width="900" alt="Screenshot 2024-12-04 at 8 27 31 PM" src="https://github.com/user-attachments/assets/a984f207-fa52-453b-bb48-94c291886b26">
-<img width="500" alt="Screenshot 2024-12-04 at 8 27 42 PM" src="https://github.com/user-attachments/assets/04bf29f7-34fc-4de3-abfa-df81345a962c">
-<img width="400" alt="Screenshot 2024-12-04 at 8 27 50 PM" src="https://github.com/user-attachments/assets/7dfca063-430e-42d6-9f56-e7d9e165b2c8">
+<img width="600" alt="Screenshot 2024-12-04 at 8 27 31 PM" src="https://github.com/user-attachments/assets/a984f207-fa52-453b-bb48-94c291886b26">
+<br/>
+<img width="300" alt="Screenshot 2024-12-04 at 8 27 42 PM" src="https://github.com/user-attachments/assets/04bf29f7-34fc-4de3-abfa-df81345a962c">
+<img width="300" alt="Screenshot 2024-12-04 at 8 27 50 PM" src="https://github.com/user-attachments/assets/7dfca063-430e-42d6-9f56-e7d9e165b2c8">
 <br/>
 <br/>
 <br/>
@@ -30,9 +31,8 @@ Alice Su
 ### Fourier's Law of Heat Conduction
 Mathematical Representation of Heat Flow
 Heat flows in the direction of the negative gradient vector.
-<img width="600" alt="Screenshot 2024-12-05 at 3 01 55 PM" src="https://github.com/user-attachments/assets/4b97cf40-dba3-40a4-a773-f1a28e4fd28b">
-
-<img width="600" alt="Screenshot 2024-12-05 at 4 46 19 PM" src="https://github.com/user-attachments/assets/a78d2d42-3462-4266-926d-5322ae311065">
+<img width="300" alt="Screenshot 2024-12-05 at 3 01 55 PM" src="https://github.com/user-attachments/assets/4b97cf40-dba3-40a4-a773-f1a28e4fd28b">
+<img width="300" alt="Screenshot 2024-12-05 at 4 46 19 PM" src="https://github.com/user-attachments/assets/a78d2d42-3462-4266-926d-5322ae311065">
 
 
 
