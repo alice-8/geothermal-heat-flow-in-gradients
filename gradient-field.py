@@ -2,7 +2,7 @@
 # Alice Su, Per. 2
 # Dec 4, 2024
 
-# Direction of Heat Flow, 2D Gradient Field Final Product
+# Direction of Heat Flow, 2D Gradient Field
 
 
 import numpy as np
@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 from scipy.interpolate import griddata
 
-# City coordinates (latitude, longitude)
+# City coordinates
 cities = {
     "San Francisco": (37.7749, -122.4194),
     "Pleasanton": (37.6624, -121.8747),
@@ -23,7 +23,7 @@ cities = {
     "Palo Alto": (37.4419, -122.1430)
 }
 
-# Temperatures for four days
+# Temperatures recorded from four days during Thanksgiving break
 temperatures = {
     "Day 1": [55, 57, 57, 57, 55, 58, 58, 55, 57],
     "Day 2": [56, 56, 56, 56, 56, 57, 57, 57, 57],
@@ -31,7 +31,7 @@ temperatures = {
     "Day 4": [57, 57, 56, 57, 57, 58, 58, 56, 57]
 }
 
-# Extract coordinates and organize data
+# Organize data into array
 latitudes = np.array([coord[0] for coord in cities.values()])
 longitudes = np.array([coord[1] for coord in cities.values()])
 coordinates = np.column_stack((latitudes, longitudes))
@@ -42,7 +42,7 @@ lat_grid, lon_grid = np.meshgrid(
     np.linspace(longitudes.min(), longitudes.max(), 50)
 )
 
-# Function to interpolate temperatures
+# Interpolate temperatures
 def interpolate_temps(coords, temps, lat_grid, lon_grid):
     grid_temps = griddata(coords, temps, (lat_grid, lon_grid), method='cubic')
     return grid_temps
@@ -53,7 +53,7 @@ for day, temps in temperatures.items():
     temp_grid = interpolate_temps(coordinates, temps, lat_grid, lon_grid)
     temperature_grids.append(temp_grid)
 
-# Calculate gradient fields for each day
+# Calculate gradient vectors for the gradient field of each day
 gradient_fields = []
 for grid in temperature_grids:
     grad_y, grad_x = np.gradient(grid)
