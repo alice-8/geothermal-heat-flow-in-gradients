@@ -20,7 +20,6 @@ Alice Su
 ### Fourier's Law of Heat Conduction
 Mathematical Representation of Heat Flow
 Heat flows in the direction of the negative gradient vector.
-<img width="300" alt="Screenshot 2024-12-05 at 3 01 55 PM" src="https://github.com/user-attachments/assets/4b97cf40-dba3-40a4-a773-f1a28e4fd28b">
 <img width="300" alt="Screenshot 2024-12-05 at 4 46 19 PM" src="https://github.com/user-attachments/assets/a78d2d42-3462-4266-926d-5322ae311065">
 
 
