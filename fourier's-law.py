@@ -59,7 +59,7 @@ def plot_gradient_field(lat_grid, lon_grid, grad_lat, grad_lon, title, output_pa
 plot_gradient_field(
     lat_grid, lon_grid, -grad_lat, -grad_lon,
     title="Gradient Field of Day 1 Surface (Negative Gradients)",
-    output_path="/mnt/data/gradient_field_negative.png",
+    output_path="/Users/alicesu/Downloads/gradient_field_negative.png",
     scale=10
 )
 
