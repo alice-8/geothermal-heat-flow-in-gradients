@@ -1,5 +1,5 @@
 # Geothermal Heat Flow in Gradients
-MVC Semester 1 Final Project - Geothermal Heat Flow in Gradients
+MVC Semester 1 Final Project 24' - Geothermal Heat Flow in Gradients
 <br/>
 [Presentation](https://docs.google.com/presentation/d/1iVJrrd7XczdH7fUEeNdqvJwp_CSXuuZO21OClTr0dPo/edit?usp=sharing)
 <br/>
